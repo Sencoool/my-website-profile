@@ -1,34 +1,45 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-items-center min-h-screen">
-      {/* profiles */}
-      <div className="flex items-center justify-items-center w-2/2 h-[800px] bg-stone-50">
-        <div className="flex items-center justify-items-center w-1/2 h-[300px] border-4 overflow-hidden mr-20">
-        <img
-          src="vercel.svg"
-          className="w-2/2 h-1/2 items-center"
-          alt=""
-        />
-        </div>
-        <div className="flex flex-col justify-items-center w-1/2 h-1/4 border-4">
+      {/* header */}
+      <div className="flex justify-center w-full h-[50px] bg-orange-400">
         <p className="font-bold text-2xl">
-          Hi
+          
         </p>
-        <p className="font-bold text-2xl">
-          My name is <span className="text-orange-400">Jiramet</span>
-        </p>
-        <p className="font-bold text-2xl">
-          a junior-year student majoring in <span className="text-orange-400">Information Technology</span> 
-        </p>
-        <a className="flex justify-center font-bold border-2 rounded-md w-40" href="https://github.com/Sencoool">Link to my Github</a>
-        </div>
       </div>
+      
+      {/* profiles */}
+      <div className="flex items-center justify-center w-full max-w-4xl py-16">
+  <div className="w-1/3 mr-8 rounded-lg overflow-hidden shadow-lg">
+    <img
+      src="your-profile-image.jpg" // Replace with your image
+      className="w-full h-64 object-cover"
+      alt="Jiramet Profile"
+    />
+  </div>
+  <div className="w-2/3">
+    <p className="text-3xl font-bold mb-2">Hi, I'm Jiramet</p>
+    <p className="text-xl mb-2">
+      A junior-year student majoring in{' '}
+      <span className="text-orange-400">Information Technology</span>.
+    </p>
+    <p className="text-lg text-gray-700 mb-4">
+      Passionate about Full-Stack Development. Familiar with JavaScript, React, Node.js, and SQL. Committed to applying my skills in real-world projects and continuously learning new technologies.
+    </p>
+    <a
+      href="https://github.com/Sencoool"
+      className="border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-slate-50 font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out"
+    >
+      Visit my GitHub
+    </a>
+  </div>
+</div>
 
-      <div className="flex justify-center w-full h-[500px] bg-grey bg-stone-700">
+      <div className="flex justify-center w-full h-[500px]">
         <p className="font-bold text-2xl text-orange-400">PROJECTS</p>
 
       </div>
-      <div className="flex justify-center w-full h-[500px] bg-stone-800">
+      <div className="flex justify-center w-full h-[500px]">
         <p className="font-bold text-2xl text-orange-400">EDUCATION</p>
 
       </div>
