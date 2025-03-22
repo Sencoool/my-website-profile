@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { Kanit } from "next/font/google";
+
+const kanit = Kanit({ subsets: ["latin"], weight: ["300", "400", "700"] });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,9 +23,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="kanit.classname">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${kanit.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
         {children}
