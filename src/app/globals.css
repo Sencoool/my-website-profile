@@ -26,31 +26,6 @@
   animation: slide-in-left 0.5s ease-out both;
 }
 
-@keyframes slide-in-right {
-  from {
-    transform: translateX(20px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-.slide-in-right {
-  animation: slide-in-right 0.5s ease-out both;
-}
-
-@keyframes slide-in-bottom {
-  from {
-    transform: translateY(20px);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-.slide-in-bottom {
-  animation: slide-in-bottom 0.5s ease-out both;
-}
 
 :root {
   --background: #ffffff;

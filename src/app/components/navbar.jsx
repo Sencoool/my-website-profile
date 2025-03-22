@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 mix-blend">
       <div className="flex items-center justify-between p-6 py-4 max-w-6xl mx-auto">
-        <h1 className="text-2xl font-bold text-orange-400">Jiramet Site</h1>
+        <h1 className="text-5xl font-bold text-orange-400">JS</h1>
 
         {/* Navigation Links */}
         <nav className={`flex md:flex ${isMobileMenuOpen ? 'flex-col mt-4' : 'hidden md:flex'}`}>
