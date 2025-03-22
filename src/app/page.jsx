@@ -1,13 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-items-center min-h-screen">
-      {/* header */}
-      <div className="flex justify-center w-full h-[50px] bg-orange-400">
-        <p className="font-bold text-2xl">
-          
-        </p>
-      </div>
-      
+    <main className="flex flex-col items-center justify-items-center min-h-screen">      
       {/* profiles */}
       <div className="flex items-center justify-center w-full max-w-4xl py-16">
   <div className="w-1/3 mr-8 rounded-lg overflow-hidden shadow-lg">
