@@ -58,7 +58,7 @@ export default function Home() {
               <h3 className="text-2xl font-semibold">King Mongkut's University of Technology North Bangkok (KMUTNB), Prachinburi Campus</h3>
             </div>
             <p className="text-gray-700 mb-1">Bachelor of Information Technology</p>
-            <p className="text-gray-700 mb-1">GPAX: 3.82 (Expected Graduation: 2026)</p>
+            <p className="text-gray-700 mb-1">GPAX: <span className='font-bold text-orange-500'>3.82</span> (Expected Graduation: 2026)</p>
             <p className="text-gray-700">2022 - Present</p>
           </div>
 
