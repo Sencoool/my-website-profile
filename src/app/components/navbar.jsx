@@ -16,12 +16,12 @@ export default function Navbar() {
             About
             <span className="absolute bottom-0 left-0 w-0 h-1 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
           </a>
-          <a href="#projects" className="relative font-bold text-lg cursor-pointer group mb-2 md:mb-0 md:mr-10">
-            Projects
+          <a href="#education" className="relative font-bold text-lg cursor-pointer group mb-2 md:mb-0 md:mr-10">
+            Education
             <span className="absolute bottom-0 left-0 w-0 h-1 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
           </a>
-          <a href="#education" className="relative font-bold text-lg cursor-pointer group">
-            Education
+          <a href="#projects" className="relative font-bold text-lg cursor-pointer group">
+            Projects
             <span className="absolute bottom-0 left-0 w-0 h-1 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
           </a>
         </nav>
