@@ -38,8 +38,41 @@ export default function Home() {
       </div>
 
       <div className="w-full max-w-5xl my-20 border-t border-gray-300"></div> 
-      {/* Technology Stacks Section */}
 
+      {/* Education Section */}
+      <div id="education" className="flex flex-col items-center w-full py-10 px-6">
+        <p className="font-bold text-4xl text-orange-500 mb-4">EDUCATION</p>
+        <p className="text-gray-600 mt-2 max-w-3xl text-center text-lg mb-12">
+          My academic background and learning experiences.
+        </p>
+
+        {/* Education Details */}
+        <div className="w-full max-w-3xl">
+          <div className="mb-8 pb-8 border-b border-gray-300"> {/* เพิ่มเส้นแบ่ง */}
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <h3 className="text-2xl font-semibold">King Mongkut's University of Technology North Bangkok (KMUTNB)</h3>
+            </div>
+            <p className="text-gray-700 mb-1">Bachelor of Information Technology</p>
+            <p className="text-gray-700 mb-1">GPAX: 3.82 (Expected Graduation: 2026)</p>
+            <p className="text-gray-700">2022 - Present</p>
+          </div>
+
+          <div>
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <h3 className="text-2xl font-semibold">Chetupon Commercial College, Bangkok</h3>
+            </div>
+            <p className="text-gray-700 mb-1">Business Computer</p>
+            <p className="text-gray-700">2018 - 2021</p>
+          </div>
+        </div>
+      </div>
+      
       {/* Projects Section */}
       <div id='projects' className="flex flex-col items-center w-full bg-gray-100 py-24 px-6">
         <p className="font-bold text-4xl text-orange-500 mb-4">PROJECTS</p>
@@ -74,40 +107,6 @@ export default function Home() {
             <a href="https://my-league-quiz.vercel.app" className="bg-orange-500 text-white ml-5 py-2 px-4 rounded-lg hover:bg-orange-600 transition-colors">
               🎮 Play here !
             </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Education Section */}
-      <div id="education" className="flex flex-col items-center w-full py-24 px-6">
-        <p className="font-bold text-4xl text-orange-500 mb-4">EDUCATION</p>
-        <p className="text-gray-600 mt-2 max-w-3xl text-center text-lg mb-12">
-          My academic background and learning experiences.
-        </p>
-
-        {/* Education Details */}
-        <div className="w-full max-w-3xl">
-          <div className="mb-8 pb-8 border-b border-gray-300"> {/* เพิ่มเส้นแบ่ง */}
-            <div className="flex items-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              <h3 className="text-2xl font-semibold">King Mongkut's University of Technology North Bangkok (KMUTNB)</h3>
-            </div>
-            <p className="text-gray-700 mb-1">Bachelor of Information Technology</p>
-            <p className="text-gray-700 mb-1">GPAX: 3.82 (Expected Graduation: 2026)</p>
-            <p className="text-gray-700">2022 - Present</p>
-          </div>
-
-          <div>
-            <div className="flex items-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              <h3 className="text-2xl font-semibold">Chetupon Commercial College, Bangkok</h3>
-            </div>
-            <p className="text-gray-700 mb-1">Business Computer</p>
-            <p className="text-gray-700">2018 - 2021</p>
           </div>
         </div>
       </div>
