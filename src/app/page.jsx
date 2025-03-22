@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-white">
       {/* Profile Section*/}
-      <div id='about' className="flex flex-col md:flex-row items-center justify-center gap-16 bg-gray-100 shadow-lg rounded-3xl overflow-hidden p-16 border border-gray-200 max-w-5xl w-full mt-16"> 
+      <div id='about' className="flex flex-col md:flex-row items-center justify-center gap-16 bg-gray-100 shadow-lg rounded-3xl overflow-hidden p-16 border border-gray-200 max-w-5xl w-full mt-50"> 
         <div className="flex justify-center max-w-4/5">
           <img src="satoru.jpg" className="object-cover overflow-hidden rounded-full border-8 border-orange-400"  alt="Jiramet Profile"/>
         </div>
@@ -37,10 +37,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full max-w-5xl my-20 border-t border-gray-300"></div> 
+      <div id="education" className="w-full max-w-5xl my-20 border-t border-gray-300"></div> 
 
       {/* Education Section */}
-      <div id="education" className="flex flex-col items-center w-full py-10 px-6">
+      <div className="flex flex-col items-center w-full py-10 px-6">
         <p className="font-bold text-4xl text-orange-500 mb-4">EDUCATION</p>
         <p className="text-gray-600 mt-2 max-w-3xl text-center text-lg mb-12">
           My academic background and learning experiences.
@@ -72,6 +72,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div id="education" className="w-full max-w-5xl my-20 border-t border-gray-300"></div> 
+
       
       {/* Projects Section */}
       <div id='projects' className="flex flex-col items-center w-full bg-gray-100 py-24 px-6">
@@ -110,6 +113,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
     </main>
   );
 }
